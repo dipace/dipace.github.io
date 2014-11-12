@@ -36,7 +36,7 @@
 								    };
 
 								    //set up your dribbble username here and the number of shots to display
-								    $.jribbble.getShotsByPlayerId('paolotripodi', callback, {
+								    $.jribbble.getShotsByPlayerId('dipace', callback, {
 								        page: 1,
 								        per_page: 6
 								    });
@@ -73,7 +73,7 @@
 								            }, 'slow', function () {
 								            	$('header h1').removeClass('first-sentence');
 								            	$('header h1').addClass('second-sentence');
-								                $('header h1 span').html('MA in Visual design, designs in Sketch3, masters the Adobe CS.<br />Writes HTML5, SASS and JQuery, but only with Espresso.<br/>Speaks Italian and English.');
+								                $('header h1 span').html('UI/UX Designer, Sr. Front End Developer, who loves to code with expertise in Magento, Volusion, Wordpress, Joomla etc ...');
 								            		$('.about-me').delay( 200 ).animate({
 								                    opacity: 1,
 								                }, 'slow', function(){
@@ -102,7 +102,7 @@
 								            }, 'slow', function () {
 								            	$('header h1').addClass('first-sentence');
 								                $('header h1').removeClass('second-sentence');
-								                $('header h1 span').html('Full stack digital designer, front end ninja.<br />Currently web designer <a href="http://www.zetalab.com" target="_blank">@zetalab</a>, Milan');
+								                $('header h1 span').html('UI/UX Designer, Sr. Front End Developer, who loves to code with expertise in Magento, Volusion, Wordpress, Joomla etc ...');
 								                $('.about-me').delay( 200 ).animate({
 								                    opacity: 1,
 								                }, 'slow', function(){
